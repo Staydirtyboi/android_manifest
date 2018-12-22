@@ -47,23 +47,17 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
-  <remove-project name="platform/libcore" />
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
-  <remove-project name="platform/prebuilts/go/linux-x86" />
-  <remove-project name="platform/prebuilts/r8" />
 
   <!-- External repos -->
   <remove-project name="platform/external/expat" />
-  <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/jemalloc" />
-  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/roboto-fonts" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/turbine" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />

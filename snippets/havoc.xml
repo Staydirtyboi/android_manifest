@@ -39,17 +39,14 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="havoc" />
   <project path="external/exfat" name="android_external_exfat" remote="havoc" />
   <project path="external/expat" name="android_external_expat" remote="havoc" />
-  <project path="external/freetype" name="android_external_freetype" remote="havoc" />
   <project path="external/jemalloc" name="android_external_jemalloc" remote="havoc" />
   <project path="external/json-c" name="android_external_json-c" remote="havoc" />
-  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="havoc" />
   <project path="external/libpng" name="android_external_libpng" remote="havoc" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="havoc" />
   <project path="external/perfetto" name="android_external_perfetto" remote="havoc" />
   <project path="external/roboto-fonts" name="android_external_roboto-fonts" remote="havoc" />
   <project path="external/sqlite" name="android_external_sqlite" remote="havoc" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="havoc" />
-  <project path="external/turbine" name="android_external_turbine" remote="havoc" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="havoc" />
   <project path="frameworks/base" name="android_frameworks_base" remote="havoc" />
@@ -81,8 +78,6 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="havoc" />
   <project path="hardware/ril-caf" name="android_hardware_qcom_ril" remote="havoc" />
 
-  <project path="libcore" name="android_libcore" remote="havoc" />
-
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="havoc" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="havoc" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="havoc" />
@@ -108,8 +103,6 @@
 
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="havoc" />
   <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="havoc" />
-  <project path="prebuilts/go/linux-x86" name="android_prebuilts_go_linux-x86" remote="havoc" />
-  <project path="prebuilts/r8" name="android_prebuilts_r8" remote="havoc" />
 
   <project path="system/bt" name="android_system_bt" remote="havoc" />
   <project path="system/core" name="android_system_core" remote="havoc" />
