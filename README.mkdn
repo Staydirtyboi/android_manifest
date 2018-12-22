@@ -37,7 +37,17 @@ Repositories:
 
 Before you continue --> run this in the terminal
 ----------------------------------------
-    repo init -u https://github.com/Havoc-OS/android_manifest.git -b pie && repo sync -j16
+
+```bash
+    repo init -u https://github.com/Staydirtyboi/android_manifest.git -b havoc-p
+```
+
+Then to sync up:
+----------------
+
+```bash
+  repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
 
 
 Building the System
