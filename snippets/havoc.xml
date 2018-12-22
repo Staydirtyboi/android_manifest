@@ -28,7 +28,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="bionic" name="android_bionic" remote="jp" revision="pie" />
+  <project path="bionic" name="bionic" remote="lol" />
 
   <project path="bootable/recovery" name="android_bootable_recovery" remote="havoc" />
 
@@ -70,7 +70,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="havoc" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="havoc" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="havoc" />
-  <project path="hardware/qcom/audio-caf-msm8974" name="android_hardware_qcom_audio-caf-msm8974" remote="lol" />
+  <project path="hardware/qcom/audio-caf-msm8974" name="hardware_qcom_audio-caf-msm8974" remote="lol" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="havoc" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="havoc" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="havoc" />
