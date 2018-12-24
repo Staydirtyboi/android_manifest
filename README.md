@@ -25,18 +25,18 @@ GIT config (nickname, e-mail)
 To initialize your local repository use
 ---------------------------------------
 
-    repo init -u https://github.com/nitrogen-project/android_manifest.git -b p
+    repo init -u https://github.com/Staydirtyboi/android_manifest.git -b p
 
 Then to sync up:
 ----------------
 
-    repo sync -j 16
+    repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 Build command is
 ----------------
     . build/envsetup.sh
-    lunch nitrogen_oneplus3-userdebug
-    make -j 7 otapackage
+    lunch nitrogen_hlte-userdebug
+    make -j8 otapackage
 
 Official supported Devices
 -----------------
