@@ -725,4 +725,6 @@
   <!-- Havoc additions -->
   <include name="snippets/havoc.xml" />
 
+  <!-- Additional repositories -->
+  <include name="snippets/additional.xml" />
 </manifest>
