@@ -17,12 +17,13 @@
     
   <!-- LineageOS remote -->
   <remote  name="los"
-           fetch="https://github.com/LineageOS/" />
+           fetch="https://github.com/LineageOS/" 
+           revision="refs/heads/lineage-16.0" />
 
-  <!-- DU remote -->
-  <remote name="du"
-          revision="p9x"
-          fetch="https://github.com/DirtyUnicorns/" />
+  <!-- Havoc remote -->
+  <remote  name="havoc"
+           revision="pie"
+           fetch="https://github.com/Havoc-OS" />
 
   <!-- NitrogenOS remote --> 
   <remote name="nos"
@@ -71,27 +72,26 @@
     <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="los"  revision="lineage-16.0" />
 
     <!-- hardware -->
-    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="p9x-caf" />
-    <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" revision="p9x-caf" />
-    <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="nos" revision="p" />
+    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="havoc" />
+    <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="havoc" />
+    <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="havoc" />
     <project path="hardware/qcom/audio-caf-msm8974" name="hardware_qcom_audio-caf-msm8974" remote="lol" revision="p" />
     <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="nos" revision="p" />
-    <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="jp" revision="p9x-caf" />
-    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="nos" revision="p" />
+    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="havoc" />
     <project path="hardware/qcom/display-caf-msm8974" name="hardware_qcom_display-caf-msm8974" remote="lol" revision="p" />
-    <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="du" revision="p9x-caf" />
-    <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="nos" revision="p" />
+    <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="los" revision="lineage-16.0" />
+    <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="havoc" />
     <project path="hardware/qcom/media-caf-msm8974" name="hardware_qcom_media-caf-msm8974" remote="lol" revision="p" />
     <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nos" revision="p" />
     <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="nos" revision="p" />
     <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="nos" revision="p" />
-    <project path="hardware/interfaces" name="android_hardware_interfaces" remote="du" />
+    <project path="hardware/interfaces" name="android_hardware_interfaces" remote="havoc" />
     <project path="hardware/qcom/power" name="hardware_qcom_power" remote="lol" revision="9.0"/>
     <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="nos" revision="p" />
     <project path="hardware/ril" name="android_hardware_ril" remote="jp" revision="pie" />
 
     <!-- frameworks -->
-    <project path="frameworks/av" name="android_frameworks_av" remote="du" />
+    <project path="frameworks/av" name="nitrogen_frameworks_av" remote="jp"  revision="p" />
     <project path="frameworks/base" name="nitrogen_frameworks_base" remote="jp" revision="p" />
     <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="nos" revision="p" />
     <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nos" revision="p" />
@@ -129,7 +129,7 @@
     <!-- vendor -->
     <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="jp" revision="p" />
     <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices"  remote="lol" revision="p" />
-    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="du" revision="p9x-caf" />
+    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="havoc" />
     <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="nos" revision="p" />
     <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nos" revision="p" />
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="p" />
