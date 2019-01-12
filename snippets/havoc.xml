@@ -9,7 +9,7 @@
 
   <!-- Havoc additions -->
 
-  <project path="art" name="platform_art" remote="lol" revision="9.x" />
+  <project path="art" name="android_art" remote="havoc" />
 
   <project path="build/kati" name="android_build_kati" remote="havoc" />
 
